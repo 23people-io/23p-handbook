@@ -13,6 +13,6 @@ cd "$(dirname "$0")/.."
 . scripts/colors.sh
 
 echo "${MAGENT}Starting Docs app...${RESET}"
-mkdocs serve -a 127.0.0.1:${DEFAULT_MKDOCS_PORT}
+uv run mkdocs serve -a 127.0.0.1:${DEFAULT_MKDOCS_PORT}
 
 

@@ -26,7 +26,7 @@ dependencies = [
   "mkdocstrings>=0.25.2",
   "mkdocstrings-python>=1.10.9",
   "python-dotenv>=1.0.1",
-  "pymdown-extensions>=10.6",
+  "pymdown-extensions>=10.6"
 ]
 
 [dependency-groups]
